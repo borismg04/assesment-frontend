@@ -16,24 +16,33 @@ function ProductDetail() {
 
   return (
     <div className="productdetail">
-      <div>{product.title}</div>
-      <img className="imagecard" src={product.image} alt="" />
-      <div>
+      <div className="card">
         <div>
-          Precio (USD):
-          {product.price}
+          <h2>{product.title}</h2>
         </div>
-        <ul className="list">
-          <li>
-            Categoría:
-            {product.category}
-          </li>
-          <li>
-            Descripción:
-            {product.description}
-          </li>
-        </ul>
+        <img className="imagecard" src={product.image} alt="" />
+        <div>
+          <div>
+            <h4>
+              Precio (USD):
+              {product.price}
+              {' '}
+            </h4>
+
+          </div>
+          <ul className="list">
+            <li>
+              Categoría:
+              {product.category}
+            </li>
+            <li>
+              Descripción:
+              {product.description}
+            </li>
+          </ul>
+        </div>
       </div>
+
     </div>
   );
 }

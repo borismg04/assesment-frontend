@@ -5,8 +5,31 @@
   align-items: center;
   justify-content: center;
   padding: 8rem;
-  /* background-image: url(../image/background); */
+  background-image: url(../../images/background.jpg);
+  font-family: bold, 'Roboto', sans-serif;
+  font-size: 1.5rem;
+}
+
+.card{
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border: solid rgb(2, 2, 2) 1px;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 5px 30px rgba(255, 255, 255,);
+  background-color: rgba(255, 255, 255, 0.473);
 }
 .list{
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+
 }
