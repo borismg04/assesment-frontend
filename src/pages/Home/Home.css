@@ -1,0 +1,23 @@
+.home{
+  padding: 2rem 9%;
+  position: relative;
+  background-image: url(../../images/background.jpg);
+
+}
+
+.titleproducts{
+  font-family: sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  color: black;
+  padding: 2rem 0;
+}
+
+.productscard{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 40px;
+  padding: 2rem;
+  justify-content: center;
+
+}

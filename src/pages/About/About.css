@@ -1,0 +1,42 @@
+
+.about{
+  padding: 4rem 9%;
+  position: relative;
+  background-image: url(../../images/background.jpg);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+
+}
+.contenedorimgtext{
+  display: flex;
+  justify-content: space-between;
+}
+.fotopresentacion{
+  width: 30%;
+  height: 30%;
+  border-radius: 5rem;
+  box-shadow: 1rem 2rem 1rem rgba(0, 0, 0, 0.2);
+}
+.contenerdortext{
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+.logos{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 5rem;
+  box-shadow: 1rem 2rem 1rem rgba(0, 0, 0, 0.2);
+  margin: 2rem;
+}
+
+li{
+  list-style:none;
+}
