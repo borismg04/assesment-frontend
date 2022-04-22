@@ -9,21 +9,21 @@ function About() {
   return (
     <div className="about">
       <h1>!!! Hola !!!</h1>
-      <h2>Soy Boris Monroy :) </h2>
+      <h2>Soy Boris Monroy 😄</h2>
       <img className="fotopresentacion" src={image} alt="" />
       <div className="contenedorimgtext">
         <div className="contenerdortext">
           <p>
-            Soy Ingeniero Civil y programador en formación FULL SATACK con conocimiento en FRONT-END & BACK-END. Cuento con 3 años de experiencia en manejo de personal, funciones administrativas, capacidad de análisis y desarrollo de cualquier tipo de obra en ingeniería.
+            🤓 Soy Ingeniero Civil y programador en formación FULL SATACK con conocimiento en FRONT-END 👨🏾‍💻 BACK-END. Cuento con 3 años de experiencia en manejo de personal, funciones administrativas, capacidad de análisis y desarrollo de cualquier tipo de obra en ingeniería.
             Me caracterizo por estar en formación constante y adquirir nuevas habilidad de acuerdo a las necesidades actuales del mercado. Me gusta liderar, trabajar en equipo y conseguir nuevos retos.
           </p>
           <p>
-            Adicional, gracias a la experiencia que he obtenido en la Ingeniería he desarrollado diferentes habilidades que me han hecho un mejor profesional;
+            📚 Adicional, gracias a la experiencia que he obtenido en la Ingeniería he desarrollado diferentes habilidades que me han hecho un mejor profesional;
             cumpliendo siempre con cada una de los proyectos y así mismo, entregando resultados satisfactorios.
 
           </p>
           <ul>
-            <h3>Skills:</h3>
+            <h3>Skills 🚀:</h3>
             <li>React</li>
             <li>NodeJS</li>
             <li>MongoDB</li>
